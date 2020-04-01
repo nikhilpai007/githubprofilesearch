@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>GitHub Profile Finder</title>
+    <!-- Bootstrap core CSS -->
+    <link href="https://bootswatch.com/3/superhero/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS  -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Javascripts -->
+    <!-- jQuery -->
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <!-- Bootstrap core JS -->
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <!-- My JS Script -->
+    <script src="main.js"></script>
+  </head>
+
+  <body>
+      <header>
+      <!-- Navbar -->
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+          <!-- Navbar Heading (navbar-brand) -->
+          <a class="navbar-brand">COIS 3420 Assignment 3</a>  
+        </div>
+    </nav>
+      </header>
+    <div class="container">
+      <div class="searchContainer">
+          <!-- heading -->
+        <h1><img src ="https://img.icons8.com/clouds/2x/github.png">Search GitHub Profiles </h1>
+      </br>
+      <!-- Program Explaination -->
+      <h3>What is this Program ?</h3>
+      <ul>
+          <li>Description: Enter a GitHub username and the program will return profile details provided by that user to GitHub</li>
+          <li>API: GitHub OAuth API</li>
+          <li>Made with HTML, Javascript, jQuery, Ajax Requests, Bootstrap and GitHub API (refer main.js)</li>
+          <li>Also press F12 on your keyboard to get console log of the username </li>
+      </ul>
+    </br>
+        <p class="lead"> Enter a Username </p>
+        <!-- username text input -->
+        <input type="text" id="SearchUser" class="form-control" placeholder="Username">
+      </div>
+    </br>
+    <!-- div for profile -->
+    <div id="profile"></div>
+    </div>
+</body>
+<!-- footer -->
+<footer>
+   <p> Made by: Nikhil Pai Ganesh for COIS 3420 Web Development </p>
+</footer>
+</html>
